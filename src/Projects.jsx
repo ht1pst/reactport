@@ -51,6 +51,9 @@ images: [real],
         id="projects"
         className="bg-[#0f0f0f] text-[#f5f5f5] font-sans min-h-screen text-center w-full"
       >
+        <div
+        ><h1 className='text-5xl font-bold '>Projects</h1>
+        </div>
         <main className="max-w-5xl mx-auto py-16 px-4 text-center">
           {projects.map((project, idx) => (
             <div
