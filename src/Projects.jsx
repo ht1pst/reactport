@@ -10,6 +10,7 @@ import proj3 from "../src/assets/powerflow.png";
 import proj4 from "../src/assets/wager.png";
 import arrow2 from "../src/assets/arrow.webp";
 import React from "react";
+import { motion } from "framer-motion";
 
 function Projects() {
   const projects = [
@@ -59,11 +60,21 @@ images: [real],
         className="bg-[#292929] text-[#f5f5f5] font-sans min-h-screen  w-full max-w-350 mx-auto"
       >
         <div
-        ><h1 className='text-5xl font-bold text-center'>Projects</h1>
+        ><motion.h1 className='text-5xl font-bold text-center'
+         initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+        >Projects</motion.h1>
         </div>
 
 <a href="https://synoxco.netlify.app/">
-   <div className="flex flex-col lg:flex-row items-center justify-between rounded border group border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+   <motion.div className="flex flex-col lg:flex-row items-center justify-between rounded border group border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10"
+    initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+   >
                 <div className="p-[20px]">
 <h1 className="text-[1.75rem] font-bold proj-title text-white">Synoxco</h1>
 
@@ -90,11 +101,16 @@ images: [real],
                 </div>
                
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://phunkk.netlify.app/">
- <div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+ <motion.div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10"
+  initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+ >
 
                 <div className="p-[20px]">
 <h1 className="text-[1.75rem] font-bold proj-title text-white">Phunkk</h1>
@@ -122,11 +138,16 @@ images: [real],
                     <img src={proj2} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
              
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://powerflowco.netlify.app/">
-            <div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+            <motion.div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10"
+             initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+            >
 
                 <div className="p-[20px]">
 <h1 className="text-[1.75rem] font-bold proj-title text-white">Powerflow</h1>
@@ -154,11 +175,16 @@ images: [real],
                 </div>
                
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://wagerfunding.netlify.app/">
-<div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+<motion.div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10"
+ initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+>
 
                 <div className="p-[20px]">
 <h1 className="text-[1.75rem] font-bold proj-title text-white">Wager Funding</h1>
@@ -185,11 +211,16 @@ images: [real],
                     <img src={proj4} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
 
-            </div>
+            </motion.div>
 </a>
 
 <a href="https://ht1pst.github.io/to-do-list/todo.html">
-<div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+<motion.div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10"
+ initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+>
 
                 <div className="p-[20px]">
 <h1 className="text-[1.75rem] font-bold proj-title text-white">Todo</h1>
@@ -217,7 +248,7 @@ images: [real],
                 </div>
                
 
-            </div>
+            </motion.div>
  </a>
 
 

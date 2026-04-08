@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -15,17 +15,53 @@ function About() {
 <div className="bg-black">
       <main className="max-w-4xl mx-auto py-5 bg-  ">
         <div className=" border border-white/10 p-[20px] rounded-xl shadow-xl">
-          <h2 className="text-3xl md:text-4xl flex justify-center text-center lg:text-start text-green-400 mb-4 font-bold ">Hi, I'm Obadua Oluwafunmito</h2>
-          <h3 className="text-xl md:text-2xl text-center flex justify-center mb-6">Front-End Web Developer</h3>
-          <p className="text-base md:text-lg text-center leading-relaxed mb-4">
+
+
+          <motion.h2 className="text-3xl md:text-4xl flex justify-center text-center lg:text-start text-green-400 mb-4 font-bold"
+           initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut" }}
+          >Hi, I'm Obadua Oluwafunmito</motion.h2>
+
+
+          <motion.h3 className="text-xl md:text-2xl text-center flex justify-center mb-6"
+           initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+          
+          >Front-End Web Developer</motion.h3>
+
+
+          <motion.p className="text-base md:text-lg text-center leading-relaxed mb-4"
+          initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+          >
            Welcome to my professional portfolio. I’m a front-end developer with strong expertise in React and Tailwind CSS. I also have solid knowledge of HTML, modern CSS, and JavaScript, which I use to build responsive, user-friendly, and visually engaging web interfaces. I’m passionate about writing clean code and creating smooth user experiences that scale well across devices.
-          </p>
-          <p className="text-base md:text-lg text-center leading-relaxed mb-4">
+          </motion.p>
+
+
+          <motion.p className="text-base md:text-lg text-center leading-relaxed mb-4"
+          initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.6 }}
+          >
             I believe in thoughtful design, maintainable code, and delivering user interfaces that are not only functional but delightful to use. Please take a moment to explore my work and feel free to reach out for potential collaborations or project inquiries.
-          </p>
-          <p className="text-base md:text-lg text-center leading-relaxed mb-8">
+          </motion.p>
+
+
+          <motion.p className="text-base md:text-lg text-center leading-relaxed mb-8"
+          initial={{ y: 50, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{ duration: 0.8, ease: "easeOut", delay: 0.8 }}
+          >
             I'm excited to collaborate with like-minded individuals and companies. I'm open to remote work opportunities and am flexible with compensation structures, including contract work. Let's discuss how we can work together to bring your project to life!
-          </p>
+          </motion.p>
         </div>
       </main>
 
