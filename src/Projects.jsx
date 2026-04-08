@@ -4,7 +4,11 @@ import landing from '../src/assets/landing.png';
 import todo from '../src/assets/todo.png';
 import real from '../src/assets/realestate.png';
 import tech from '../src/assets/techcompany.png';
-
+import proj1 from "../src/assets/synox.png";
+import proj2 from "../src/assets/phunk.png";
+import proj3 from "../src/assets/powerflow.png";
+import proj4 from "../src/assets/wager.png";
+import arrow2 from "../src/assets/arrow.webp";
 import React from "react";
 
 function Projects() {
@@ -46,47 +50,178 @@ images: [real],
   ];
 
   return (
-    <section>
+    <section className='lg:px-[90px] px-[20px] bg-[#292929] pt-20  '>
+
+
+
       <div
         id="projects"
-        className="bg-[#0f0f0f] text-[#f5f5f5] font-sans min-h-screen text-center w-full"
+        className="bg-[#292929] text-[#f5f5f5] font-sans min-h-screen  w-full max-w-350 mx-auto"
       >
         <div
-        ><h1 className='text-5xl font-bold '>Projects</h1>
+        ><h1 className='text-5xl font-bold text-center'>Projects</h1>
         </div>
-        <main className="max-w-5xl mx-auto py-16 px-4 text-center">
-          {projects.map((project, idx) => (
-            <div
-              key={idx}
-              className="bg-white/5 border border-white/10 rounded-xl p-8 mb-12 shadow-lg"
-            >
-              <h2 className="text-[#2cb67d] text-2xl font-semibold mb-4">
-                {project.title}
-              </h2>
-              <p className="text-lg leading-relaxed mb-6">{project.description}</p>
-              <h3 className="text-[#333] font-bold text-lg mb-2">Live Demo:</h3>
-              <a
-                href={project.link}
-                className="text-blue-600 hover:text-blue-800 transition-colors duration-200"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Live Website
-              </a>
-              <h3 className="text-[#333] font-bold text-lg mt-6 mb-2">Screenshot:</h3>
-              <div className="flex flex-wrap justify-center gap-4">
-                {project.images.map((img, i) => (
-                  <img
-                    key={i}
-                    src={img}
-                    alt={`Screenshot ${i + 1}`}
-                    className="w-1/3 min-w-[200px] rounded-lg border border-gray-300 shadow-md"
-                  />
-                ))}
-              </div>
+
+<a href="https://synoxco.netlify.app/">
+   <div className="flex flex-col lg:flex-row items-center justify-between rounded border group border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+                <div className="p-[20px]">
+<h1 className="text-[1.75rem] font-bold proj-title text-white">Synoxco</h1>
+
+<div className="proj-tools flex flex-wrap  gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">React + Vite</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Tailwind CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Motion</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Netlify</p>
+</div>
+
+<p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A sleek fintech landing page created for a digital finance platform. The website focuses on clear communication of financial services, trust-driven design, and responsive UI sections that present the platform’s features in a modern and accessible way.</p>
+
+<a href="#" >
+  <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+
+     <div className='mt-8 block lg:hidden'>
+                    <img src={proj1} alt="" className="rounded-xl lg:w-150  rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+                </div>
+
+ <div>
+                    <img src={proj1} alt="" className="rounded-xl lg:w-150  rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+               
+
             </div>
-          ))}
-        </main>
+</a>
+
+<a href="https://phunkk.netlify.app/">
+ <div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+
+                <div className="p-[20px]">
+<h1 className="text-[1.75rem] font-bold proj-title text-white">Phunkk</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">React + Vite</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Tailwind CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Motion</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Netlify</p>
+</div>
+
+<p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A bold and visually engaging landing page designed for a modern digital brand. The project focuses on strong typography, immersive visuals, and clean layout structures to create an impactful user experience while maintaining performance and responsiveness across devices.</p>
+
+<a href="#" >
+  <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+
+      <div className='mt-8 block lg:hidden'>
+                    <img src={proj2} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+
+                </div>
+
+ <div>
+                    <img src={proj2} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+             
+            </div>
+</a>
+
+<a href="https://powerflowco.netlify.app/">
+            <div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+
+                <div className="p-[20px]">
+<h1 className="text-[1.75rem] font-bold proj-title text-white">Powerflow</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">React + Vite</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Tailwind CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Motion</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Netlify</p>
+</div>
+
+<p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A modern landing page designed for a fitness and gym brand. The site highlights training programs, facilities, and membership options through bold visuals, strong typography, and a responsive layout built to motivate visitors and drive sign-ups.</p>
+
+<a href="#" >
+  <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+
+    <div className='mt-8 block lg:hidden'>
+                    <img src={proj3} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+                </div>
+
+  <div>
+                    <img src={proj3} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+               
+
+            </div>
+</a>
+
+<a href="https://wagerfunding.netlify.app/">
+<div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+
+                <div className="p-[20px]">
+<h1 className="text-[1.75rem] font-bold proj-title text-white">Wager Funding</h1>
+
+<div className="proj-tools flex flex-wrap gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">React + Vite</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Tailwind CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Motion</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">Framer Netlify</p>
+</div>
+
+<p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A modern fintech-style landing page for a sports prediction funding platform that allows users to showcase their skills and earn rewards through performance-based challenges. I designed and developed the responsive interface with a focus on clear information hierarchy, engaging UI sections, and smooth interactions to improve user experience and conversion.</p>
+
+<a href="#" >
+  <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+
+     <div className='mt-8 block lg:hidden'>
+                    <img src={proj4} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+                </div>
+
+               <div>
+                    <img src={proj4} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+
+            </div>
+</a>
+
+<a href="https://ht1pst.github.io/to-do-list/todo.html">
+<div className="flex items-center group justify-between rounded border border-[#616161] lg:py-5 lg:px-6 rounded-2xl mt-10">
+
+                <div className="p-[20px]">
+<h1 className="text-[1.75rem] font-bold proj-title text-white">Todo</h1>
+
+<div className="proj-tools flex gap-2 mt-3">
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">HTML</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">CSS</p>
+    <p className="border border-white w-auto px-5 h-7 flex justify-center items-center text-white text-[.75rem] font-bold rounded-full">JavaScript</p>
+</div>
+
+<p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A simple and intuitive task management application that allows users to create, track, and organize daily tasks efficiently. The project focuses on clean UI design, responsive layouts, and dynamic state management to provide a smooth and productive user experience.</p>
+
+<a href="#" >
+  <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
+    </a>
+
+     <div className='mt-8 block lg:hidden'>
+                    <img src={todo} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+                </div>
+
+
+<div>
+                    <img src={todo} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
+                </div>
+               
+
+            </div>
+ </a>
+
+
+      
       </div>
     </section>
   );

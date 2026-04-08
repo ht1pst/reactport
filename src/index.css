@@ -1,7 +1,39 @@
 @import "tailwindcss";
 *{
  background-color: black;
-font-family: sans-serif;
+font-family: "Porlane3", sans-serif;
  scroll-behavior: smooth;
 
+}
+
+@font-face {
+  font-family: "Porlane";
+  src: url("/src/assets/fonts/porlane.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane2";
+  src: url("/src/assets/fonts/porlane2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane3";
+  src: url("/src/assets/fonts/porlane3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Porlane4";
+  src: url("/src/assets/fonts/porlane4.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heading-hero{
+  font-family: "Porlane", sans-serif;
 }
