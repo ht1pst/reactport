@@ -85,7 +85,7 @@ images: [real],
                 </div>
                 </div>
 
- <div>
+ <div className='lg:block hidden'>
                     <img src={proj1} alt="" className="rounded-xl lg:w-150  rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
                
@@ -118,7 +118,7 @@ images: [real],
 
                 </div>
 
- <div>
+ <div className='lg:block hidden'>
                     <img src={proj2} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
              
@@ -149,7 +149,7 @@ images: [real],
                 </div>
                 </div>
 
-  <div>
+  <div className='lg:block hidden'>
                     <img src={proj3} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
                
@@ -181,7 +181,7 @@ images: [real],
                 </div>
                 </div>
 
-               <div>
+               <div className='lg:block hidden'>
                     <img src={proj4} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
 
@@ -212,7 +212,7 @@ images: [real],
                 </div>
 
 
-<div>
+<div className='lg:block hidden'>
                     <img src={todo} alt="" className="rounded-xl w-150 rounded-xl object-cover transition-transform duration-300 group-hover:scale-102" />
                 </div>
                
