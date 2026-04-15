@@ -87,7 +87,7 @@ images: [real],
 
 <p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A sleek fintech landing page created for a digital finance platform. The website focuses on clear communication of financial services, trust-driven design, and responsive UI sections that present the platform’s features in a modern and accessible way.</p>
 
-<a href="#" >
+<a href="https://synoxco.netlify.app/" >
   <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
 
@@ -124,7 +124,7 @@ images: [real],
 
 <p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A bold and visually engaging landing page designed for a modern digital brand. The project focuses on strong typography, immersive visuals, and clean layout structures to create an impactful user experience while maintaining performance and responsiveness across devices.</p>
 
-<a href="#" >
+<a href="https://phunkk.netlify.app/" >
   <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
 
@@ -161,7 +161,7 @@ images: [real],
 
 <p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A modern landing page designed for a fitness and gym brand. The site highlights training programs, facilities, and membership options through bold visuals, strong typography, and a responsive layout built to motivate visitors and drive sign-ups.</p>
 
-<a href="#" >
+<a href="https://powerflowco.netlify.app/" >
   <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
 
@@ -198,7 +198,7 @@ images: [real],
 
 <p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A modern fintech-style landing page for a sports prediction funding platform that allows users to showcase their skills and earn rewards through performance-based challenges. I designed and developed the responsive interface with a focus on clear information hierarchy, engaging UI sections, and smooth interactions to improve user experience and conversion.</p>
 
-<a href="#" >
+<a href="https://wagerfunding.netlify.app/" >
   <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
 
@@ -233,7 +233,7 @@ images: [real],
 
 <p className="proj-det text-[1.125rem] text-white font-bold max-w-[600px] leading-[23px] mt-10">A simple and intuitive task management application that allows users to create, track, and organize daily tasks efficiently. The project focuses on clean UI design, responsive layouts, and dynamic state management to provide a smooth and productive user experience.</p>
 
-<a href="#" >
+<a href="https://ht1pst.github.io/to-do-list/todo.html" >
   <button className="flex border w-45 justify-center rounded-full h-13 items-center gap-2 text-[1.1rem] text-white mt-10">View Project <span className="rounded-full bg-white inline-flex items-center justify-center w-7 h-7    "><img src={arrow2} alt="call icon" className="w-[15px]" /></span></button>
     </a>
 
